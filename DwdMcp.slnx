@@ -2,4 +2,7 @@
   <Folder Name="/src/">
     <Project Path="src/DwdMcp/DwdMcp.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DwdMcp.Tests/DwdMcp.Tests.csproj" />
+  </Folder>
 </Solution>

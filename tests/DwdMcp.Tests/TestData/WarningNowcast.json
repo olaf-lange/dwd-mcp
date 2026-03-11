@@ -1,0 +1,27 @@
+{
+  "time": 1710100800000,
+  "warnings": [
+    {
+      "type": 2,
+      "level": 3,
+      "start": 1710100800000,
+      "end": 1710111600000,
+      "states": [1.0, 2.0],
+      "regions": [
+        {
+          "polygon": [50.1, 8.6, 50.2, 8.7, 50.15, 8.65],
+          "triangles": [0, 1, 2]
+        }
+      ],
+      "urls": ["https://example.com/warning1"],
+      "bn": false,
+      "isVorabinfo": false,
+      "instruction": "Schützen Sie sich vor Sturmböen.",
+      "description": "Es treten Sturmböen auf.",
+      "descriptionText": "Sturmböen mit Geschwindigkeiten bis 90 km/h.",
+      "event": "STURMBÖEN",
+      "headLine": "Amtliche WARNUNG vor STURMBÖEN"
+    }
+  ],
+  "binnenSee": null
+}

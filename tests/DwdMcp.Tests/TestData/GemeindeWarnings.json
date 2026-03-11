@@ -1,0 +1,39 @@
+{
+  "time": 1710100800000,
+  "warnings": [
+    {
+      "type": 1,
+      "level": 2,
+      "start": 1710100800000,
+      "end": 1710122400000,
+      "regions": [
+        {
+          "polygon": [51.0, 9.0, 51.5, 9.5, 51.0, 9.5],
+          "triangles": [0, 1, 2]
+        }
+      ],
+      "urls": [],
+      "bn": false,
+      "isVorabinfo": true,
+      "description": "Frost warning for northern Hesse region.",
+      "descriptionText": "Temperatures dropping below -5°C overnight.",
+      "event": "FROST",
+      "headLine": "Official FROST WARNING"
+    }
+  ],
+  "binnenSee": {
+    "501000000": [
+      {
+        "type": 5,
+        "level": 2,
+        "start": 1710100800000,
+        "bn": true,
+        "instruction": "Boote sichern.",
+        "description": "Sturm auf dem Bodensee.",
+        "descriptionText": "Wind bis 60 km/h.",
+        "event": "STURM",
+        "headline": "Sturmwarnung Bodensee"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "10865": {
+    "forecast1": {
+      "stationId": "10865",
+      "start": 1710100800000,
+      "timeStep": 3600,
+      "temperature": [5.2, 6.1, 7.0, null],
+      "temperatureStd": [0.5, 0.6, null],
+      "windSpeed": "15",
+      "windDirection": "270",
+      "windGust": "30",
+      "icon": [3, 4, 2, null],
+      "precipitationTotal": [0.0, 0.1, 0.5, null],
+      "precipitationProbablity": "40",
+      "precipitationProbablityIndex": "2"
+    },
+    "forecast2": {
+      "stationId": "10865",
+      "start": 1710187200000,
+      "timeStep": 3600,
+      "temperature": [8.0, 9.5],
+      "windSpeed": "10",
+      "windDirection": "180",
+      "windGust": "20",
+      "icon": [1, 2],
+      "precipitationTotal": [0.0, 0.0]
+    },
+    "forecastStart": "2024-03-11T00:00:00.000Z",
+    "days": [
+      {
+        "stationId": "10865",
+        "dayDate": "2024-03-11",
+        "temperatureMin": 3,
+        "temperatureMax": 12,
+        "icon": 3,
+        "icon1": "cloudy",
+        "icon2": "partly_cloudy",
+        "precipitation": 20,
+        "windSpeed": 15,
+        "windGust": 30,
+        "windDirection": 270,
+        "sunshine": 4
+      }
+    ],
+    "warnings": [],
+    "threeHourSummaries": null
+  },
+  "G005": {
+    "forecast1": null,
+    "forecast2": null,
+    "forecastStart": null,
+    "days": [],
+    "warnings": [],
+    "threeHourSummaries": null
+  }
+}

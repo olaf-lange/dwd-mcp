@@ -1,0 +1,7 @@
+{
+  "timestamp": 1710100800000,
+  "status": 404,
+  "error": "Not Found",
+  "message": "Station with ID 99999 not found.",
+  "path": "/v30/stationOverviewExtended"
+}

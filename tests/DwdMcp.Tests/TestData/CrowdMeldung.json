@@ -1,0 +1,36 @@
+{
+  "start": 1710057600000,
+  "end": 1710100800000,
+  "highestSeverities": [
+    {
+      "category": "WIND",
+      "auspraegung": "SCHWER"
+    },
+    {
+      "category": "REGEN",
+      "auspraegung": "MITTEL"
+    }
+  ],
+  "meldungen": [
+    {
+      "meldungId": 12345,
+      "timestamp": 1710090000000,
+      "lat": "50.1109",
+      "lon": "8.6821",
+      "place": "Frankfurt am Main",
+      "category": "WIND",
+      "auspraegung": "SCHWER",
+      "zusatzAttribute": []
+    },
+    {
+      "meldungId": 12346,
+      "timestamp": 1710091000000,
+      "lat": "48.1351",
+      "lon": "11.5820",
+      "place": "München",
+      "category": "REGEN",
+      "auspraegung": "MITTEL",
+      "zusatzAttribute": []
+    }
+  ]
+}

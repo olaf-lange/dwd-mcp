@@ -21,6 +21,10 @@ builder.Services.AddHttpClient(DwdApiClient.StationHttpClientName, (sp, client) 
     client.Timeout = TimeSpan.FromSeconds(options.TimeoutSeconds);
     client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("DwdMcp", "1.0"));
 })
+.ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
+{
+    AutomaticDecompression = System.Net.DecompressionMethods.GZip | System.Net.DecompressionMethods.Deflate
+})
 .AddStandardResilienceHandler();
 
 builder.Services.AddHttpClient(DwdApiClient.WarningHttpClientName, (sp, client) =>
@@ -29,6 +33,10 @@ builder.Services.AddHttpClient(DwdApiClient.WarningHttpClientName, (sp, client) 
     client.BaseAddress = new Uri(options.WarningBaseUrl.TrimEnd('/') + "/");
     client.Timeout = TimeSpan.FromSeconds(options.TimeoutSeconds);
     client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("DwdMcp", "1.0"));
+})
+.ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
+{
+    AutomaticDecompression = System.Net.DecompressionMethods.GZip | System.Net.DecompressionMethods.Deflate
 })
 .AddStandardResilienceHandler();
 

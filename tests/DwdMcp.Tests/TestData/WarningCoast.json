@@ -1,0 +1,29 @@
+{
+  "time": 1710100800000,
+  "warnings": {
+    "NW_NORDSEE": [
+      {
+        "type": 3,
+        "level": 2,
+        "bn": false,
+        "instruction": "Vermeiden Sie den Aufenthalt an der Küste.",
+        "description": "Sturmflut an der Nordsee.",
+        "descriptionText": "Wasserstand 1,5m über MHW.",
+        "event": "STURMFLUT",
+        "headline": "Sturmflutwarnung Nordsee"
+      }
+    ],
+    "NW_OSTSEE": [
+      {
+        "type": 3,
+        "level": 1,
+        "bn": false,
+        "instruction": null,
+        "description": "Leichte Sturmflut Ostsee.",
+        "descriptionText": "Wasserstand 0,8m über MHW.",
+        "event": "STURMFLUT",
+        "headline": "Sturmflutinformation Ostsee"
+      }
+    ]
+  }
+}
